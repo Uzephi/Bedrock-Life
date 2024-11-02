@@ -96,8 +96,7 @@
             "rebuild_animation_matrices": true,
             "geometry": "Geometry.level",
             "part_visibility": [
-                { "*": "!query.is_baby && variable.profession_index != 0 && variable.profession_index != 14" },
-                { "levelSide": "!query.is_baby && variable.level_index == 0 && variable.profession_index != 0 && variable.profession_index != 14" }
+                { "*": "!query.is_baby && variable.profession_index != 0 && variable.profession_index != 14" }
             ],
             "materials": [
                 { "*": "Material.default" }
