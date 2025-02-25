@@ -8,6 +8,11 @@
                 "default": "entity_alphatest",
                 "armor": "charged_creeper"
             },
+            "render_controllers": [
+                "controller.render.wither_boss",
+                "controller.render.wither_boss_armor_white",
+                "controller.render.wither_boss_armor_blue"
+            ],
             "spawn_egg": {
                 "texture": "spawn_egg_wither_boss"
             }

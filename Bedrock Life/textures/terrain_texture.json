@@ -1,9 +1,54 @@
 {
-    "resource_pack_name": "vanillartx",
+    "resource_pack_name": "vanilla_rtx_normals",
     "texture_name": "atlas.terrain",
     "num_mip_levels": 1,
-    "padding": 1,
+    "padding": 2,
     "texture_data": {
+        "slime_block_carried": {
+            "textures": "textures/blocks/slime_carried"
+        },
+        "honey_side_carried": {
+            "textures": "textures/blocks/honey_side_carried" 
+        },
+        "honey_top_carried": {
+            "textures": "textures/blocks/honey_top_carried"
+        },
+        "honey_bottom_carried": {
+            "textures": "textures/blocks/honey_bottom_carried"
+        },
+        "tinted_glass_carried": {
+            "textures": "textures/blocks/tinted_glass_carried"
+        },
+        "ice_carried": {
+            "textures": "textures/blocks/ice_carried"
+        },
+        "frosted_ice_carried": {
+            "textures": "textures/blocks/frosted_ice_0_carried"
+        },
+        "cave_vines_head_carried": {
+            "textures": [
+              "textures/blocks/cave_vines_head_carried",
+              "textures/blocks/cave_vines_head_berries_carried"
+            ]
+          },
+          "cave_vines_body_carried": {
+            "textures": [
+              "textures/blocks/cave_vines_body_carried",
+              "textures/blocks/cave_vines_body_berries_carried"
+            ]
+        },
+        "pointed_dripstone_carried": {
+            "textures": "textures/blocks/pointed_dripstone_carried"
+        },
+        "pumpkin_side_lit": {
+            "textures": "textures/blocks/pumpkin_side_lit"
+        },
+        "pumpkin_face_lit": {
+            "textures": "textures/blocks/pumpkin_face_lit"
+        },
+        "pumpkin_top_lit": {
+            "textures": "textures/blocks/pumpkin_top_lit"
+        },
         "deepslate_redstone_ore_lit": {
             "textures": "textures/blocks/deepslate/deepslate_redstone_ore_lit"
         },
