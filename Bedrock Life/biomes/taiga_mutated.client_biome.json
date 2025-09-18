@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.40",
+  "format_version": "1.21.70",
   "minecraft:client_biome": {
     "description": {
       "identifier": "taiga_mutated"
@@ -9,7 +9,7 @@
         "fog_identifier": "minecraft_rtx:fog_taiga_mutated"
       },
       "minecraft:water_appearance": {
-        "surface_color": "#1E6B82"
+        "surface_color": "#0081A5"
       }
     }
   }
