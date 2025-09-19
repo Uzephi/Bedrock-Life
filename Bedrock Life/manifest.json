@@ -3,17 +3,17 @@
     "header": {
         "description": "Base pack for the Realm",
         "name": "Bedrock Life",
-        "uuid": "861c7af6-cd10-4221-94f3-c08d565f04ec",
+        "uuid": "66d15a27-6d7d-4252-a279-3ae4be159748",
 	"pack_scope": "any",
-        "version": [0, 4, 0],
+        "version": [1, 0, 1],
         "min_engine_version": [ 1, 21, 90 ]
     },
     "modules": [
         {
             "description": "Base pack for the Realm",
             "type": "resources",
-            "uuid": "7de50c22-c22f-4a37-a1b2-6e4fb76dc9bb",
-            "version": [0, 4, 0]
+            "uuid": "ea5fea75-478f-490d-b5cc-bf1f3bb0f368",
+            "version": [1, 0, 1]
         }
     ],
 
