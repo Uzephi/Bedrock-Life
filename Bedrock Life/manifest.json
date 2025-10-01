@@ -3,17 +3,51 @@
     "header": {
         "description": "Base pack for the Realm",
         "name": "Bedrock Life",
-        "uuid": "24158f3d-4277-4e37-9c89-0cb632f4e91b",
+        "uuid": "e4ed5d03-ad37-4f66-9970-ad8d294cd214",
 	"pack_scope": "any",
-        "version": [1, 0, 5],
+        "version": [1, 0, 6],
         "min_engine_version": [ 1, 21, 90 ]
     },
     "modules": [
         {
             "description": "Base pack for the Realm",
             "type": "resources",
-            "uuid": "0f2eafae-c98d-487b-adc3-18b7c409df94",
-            "version": [1, 0, 5]
+            "uuid": "7f7e78da-fd1a-4923-bf99-3688167893c4",
+            "version": [1, 0, 6]
+        }
+    ],
+    "subpacks": [
+        {
+            "folder_name": "1",
+            "name": "VV",
+            "memory_tier": 2
+        },
+        {
+            "folder_name": "0",
+            "name": "Default",
+            "memory_tier": 2
+        }
+    ],
+    "settings": [
+        {
+            "type": "label",
+            "text": "                                 Options Overview"
+        },
+        {
+            "type": "label",
+            "text": "Enhanced: §iEnables modification and enhancement of resources beyond blocks with improved ray tracing compatibility.\n\nFeatures workarounds for entity and block rendering issues, glowing eyes for applicable mobs, better particles for ray tracing, and much more!"
+        },
+        {
+            "type": "label",
+            "text": "Base pack tuned for VV"
+        },
+        {
+            "type": "label",
+            "text": ""
+        },
+        {
+            "type": "label",
+            "text": "Tip: §iYou can adjust fog density, emissive intensity, auto-update the pack & tune it to your preference using the §rVanilla RTX Tuner §iapp."
         }
     ],
 
