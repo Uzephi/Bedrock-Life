@@ -51,5 +51,5 @@
         }
     ],
 
-    "capabilities": [ "raytraced","PBR" ]
+    "capabilities": [ "raytraced","pbr" ]
 }
