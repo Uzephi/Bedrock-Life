@@ -1,15 +1,18 @@
 {
-  "format_version": "1.21.110",
+  "format_version": "1.21.70",
   "minecraft:client_biome": {
     "description": {
-      "identifier": "minecraft:plains"
+      "identifier": "plains"
     },
     "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#9DB8E8"
+      },
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft_rtx:fog_plains"
+        "fog_identifier": "va:default_fog"
       },
       "minecraft:water_appearance": {
-        "surface_color": "#00A4FF"
+        "surface_color": "#44AFF5"
       }
     }
   }

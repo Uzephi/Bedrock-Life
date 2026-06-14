@@ -1,21 +1,18 @@
 {
-  "format_version": "1.21.110",
+  "format_version": "1.21.70",
   "minecraft:client_biome": {
     "description": {
-      "identifier": "minecraft:mesa_plateau_stone"
+      "identifier": "mesa_plateau_stone"
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft_rtx:fog_mesa_plateau_stone"
+        "fog_identifier": "va:mesa_fog"
       },
       "minecraft:water_appearance": {
-        "surface_color": "#45799C"
+        "surface_color": "#5F7F7A"
       },
-      "minecraft:foliage_appearance": {
-        "color": "#aea42a"
-      },
-      "minecraft:grass_appearance": {
-        "color": "#90814d"
+      "minecraft:sky_color": {
+        "sky_color": "#E6B36A"
       }
     }
   }

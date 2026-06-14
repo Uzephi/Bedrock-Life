@@ -1,18 +1,18 @@
 {
-  "format_version": "1.21.110",
+  "format_version": "1.21.70",
   "minecraft:client_biome": {
     "description": {
-      "identifier": "minecraft:forest"
+      "identifier": "forest"
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft_rtx:fog_forest"
+        "fog_identifier": "va:default_fog"
       },
       "minecraft:water_appearance": {
-        "surface_color": "#008BEF"
+        "surface_color": "#4F7F8A"
       },
-      "minecraft:biome_music": {
-        "music_definition": "forest"
+      "minecraft:sky_color": {
+        "sky_color": "#6F82C6"
       }
     }
   }

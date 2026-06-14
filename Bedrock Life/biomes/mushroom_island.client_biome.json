@@ -1,15 +1,18 @@
 {
-  "format_version": "1.21.110",
+  "format_version": "1.21.70",
   "minecraft:client_biome": {
     "description": {
-      "identifier": "minecraft:mushroom_island"
+      "identifier": "mushroom_island"
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft_rtx:fog_mushroom_island"
+        "fog_identifier": "va:mushroom_fog"
       },
       "minecraft:water_appearance": {
-        "surface_color": "#8a8997"
+        "surface_color": "#7C8CB0"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#B7A6D8"
       }
     }
   }

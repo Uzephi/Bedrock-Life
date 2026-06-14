@@ -1,24 +1,18 @@
 {
-  "format_version": "1.21.110",
+  "format_version": "1.21.70",
   "minecraft:client_biome": {
     "description": {
-      "identifier": "minecraft:roofed_forest"
+      "identifier": "roofed_forest"
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft_rtx:fog_roofed_forest"
+        "fog_identifier": "va:dark_forest_fog"
       },
       "minecraft:water_appearance": {
-        "surface_color": "#3B6CD1"
+        "surface_color": "#2F4F4A"
       },
-      "minecraft:dry_foliage_color": {
-        "color": "#7B5334"
-      },
-      "minecraft:grass_appearance": {
-        "grass_is_shaded": true
-      },
-      "minecraft:biome_music": {
-        "music_definition": "roofed_forest"
+      "minecraft:sky_color": {
+        "sky_color": "#4A5147"
       }
     }
   }

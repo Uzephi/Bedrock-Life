@@ -1,15 +1,18 @@
 {
-  "format_version": "1.21.110",
+  "format_version": "1.21.70",
   "minecraft:client_biome": {
     "description": {
-      "identifier": "minecraft:jungle_hills"
+      "identifier": "jungle_hills"
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft_rtx:fog_jungle_hills"
+        "fog_identifier": "va:jungle_fog"
       },
       "minecraft:water_appearance": {
-        "surface_color": "#0090CE"
+        "surface_color": "#3F7F75"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#6A7FC9"
       }
     }
   }

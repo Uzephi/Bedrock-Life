@@ -1,15 +1,18 @@
 {
-  "format_version": "1.21.110",
+  "format_version": "1.21.70",
   "minecraft:client_biome": {
     "description": {
-      "identifier": "minecraft:desert_hills"
+      "identifier": "desert_hills"
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft_rtx:fog_desert_hills"
+        "fog_identifier": "va:desert_fog"
       },
       "minecraft:water_appearance": {
-        "surface_color": "#0079A5"
+        "surface_color": "#B88A5A"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#a89166"
       }
     }
   }

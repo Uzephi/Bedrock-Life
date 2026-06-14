@@ -1,15 +1,18 @@
 {
-  "format_version": "1.21.110",
+  "format_version": "1.21.70",
   "minecraft:client_biome": {
     "description": {
-      "identifier": "minecraft:savanna"
+      "identifier": "savanna"
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft_rtx:fog_savanna"
+        "fog_identifier": "va:savanna_fog"
       },
       "minecraft:water_appearance": {
-        "surface_color": "#00849B"
+        "surface_color": "#3A8A7A"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#D8C28A"
       }
     }
   }

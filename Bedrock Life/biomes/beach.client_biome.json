@@ -1,15 +1,18 @@
 {
-  "format_version": "1.21.110",
+  "format_version": "1.21.70",
   "minecraft:client_biome": {
     "description": {
-      "identifier": "minecraft:beach"
+      "identifier": "beach"
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft_rtx:fog_beach"
+        "fog_identifier": "va:plains_fog"
       },
       "minecraft:water_appearance": {
-        "surface_color": "#157cab"
+        "surface_color": "#5FA6E8"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#7F93E8"
       }
     }
   }

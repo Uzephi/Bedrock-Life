@@ -1,15 +1,18 @@
 {
-  "format_version": "1.21.110",
+  "format_version": "1.21.70",
   "minecraft:client_biome": {
     "description": {
-      "identifier": "minecraft:ice_mountains"
+      "identifier": "ice_mountains"
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft_rtx:fog_ice_mountains"
+        "fog_identifier": "va:ice_fog"
       },
       "minecraft:water_appearance": {
-        "surface_color": "#1156a7"
+        "surface_color": "#3A6FAE"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#BFD4EC"
       }
     }
   }
